@@ -41,10 +41,14 @@ view model =
         div [ class "jumbotron" ][
           img [ src "static/img/elm.jpg", style styles.img ] []                                    -- inline CSS (via var)
           , hello model                                                                     -- ext 'hello' component (takes 'model' as arg)
-          , p [] [ text ( "Elm Webpack Starter" ) ]
+          , p [] [ text ( "Find Out How You Can Help" ) ]
           , button [ class "btn btn-primary btn-lg", onClick Increment ] [                  -- click handler
-            span[ class "glyphicon glyphicon-star" ][]                                      -- glyphicon
-            , span[][ text "FTW!" ]
+            span[ class "" ][]                                      -- glyphicon
+            , span[][ text "Find a protest" ]
+          ]
+          , button [ class "btn btn-primary btn-lg", onClick Increment ] [                  -- click handler
+            span[ class "" ][]                                      -- glyphicon
+            , span[][ text "List a protest" ]
           ]
         ]
       ]

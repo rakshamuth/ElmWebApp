@@ -8,5 +8,5 @@ import String
 hello : Int -> Html a
 hello model =
   div
-    [ class "h1" ]
-    [ text ( "Hello, Elm" ++ ( "!" |> String.repeat model ) ) ]
+    [ class "h2" ]
+    [ text ( "Connecting Activists with Supporters" ++ ( "!" |> String.repeat model ) ) ]
