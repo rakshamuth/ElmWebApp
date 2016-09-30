@@ -2,7 +2,7 @@
     "name": "Practice in Elm",
     "repository": "https://github.com/rakshamuth/ElmWebApp",
     "env": {
-        "BUILDPACK_URL": "https://github.com/srid/heroku-buildpack-elm",
+        "BUILDPACK_URL": "https://github.com/srid/heroku-buildpack-elm.git",
         "ELM_COMPILE": "elm make Main.elm",
         "ELM_STATIC_DIR": "."
     }
